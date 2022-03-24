@@ -6,41 +6,89 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
-
-            //, axirinada 8 reqemini artir
+            //3 dene 4 reqemli eded verilib. I ededin 1%-ni, II ededin 2% , III ededin 3 % tap.
 
 
 
-            Console.WriteLine("eded daxil edin:");
+            //Neticeleri bir birinden cix. Alinan cavabin ustune III ededin 7 % faizini gel
 
-            int a = Convert.ToInt32(Console.ReadLine());
+
+
+            double a = 1234;
+
+
+
+            double b = 2345;
+
+
+
+            double c = 3456;
+
+
 
             string s = Convert.ToString(a);
 
-            if (s.Length != 4)
+
+
+            string r = Convert.ToString(b);
+
+
+
+            string g = Convert.ToString(c);
+
+
+
+
+
+
+
+            if (s.Length == 4 && r.Length == 4 && g.Length == 4)
 
 
 
             {
 
-                Console.WriteLine("xeta");
+                double a1 = a * 1 / 100;
+
+
+
+                double b1 = b * 2 / 100;
+
+
+
+                double c1 = c * 3 / 100;
+
+                Console.WriteLine(a1);
+
+
+
+
+
+                double d = a1 - b1 - c1;
+
+
+
+                Console.WriteLine($"ededler ve faizleri muvafiq olaraq: {a} - {a1} {b}- {b1}  {c} -{c1}  yekun cavab ise {d}");
+
+
+
+
 
             }
 
+
+
             else
+
+
 
             {
 
-                int b = 8;
-
-                int d = 7;
 
 
 
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
 
-                Console.WriteLine(newNumber);
+                Console.WriteLine("xeta");
 
 
 
