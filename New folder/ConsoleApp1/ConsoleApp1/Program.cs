@@ -6,25 +6,63 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
+            //4 dene 6 reqemli eded verilib. Ededlerin hamisinin 10 faizini tap ve topla. Sonra hamisinin 15 faizini tap ve topla.
 
-            //, axirinada 8 reqemini artir
+            //Sonra yekunda alinanlar iki cavabi vur biri birine. Alinan neticenin evvel 10 % tap sonra ise hemin cavabin 11 % tap.
+
+            double a = 12345;
 
 
 
-            Console.WriteLine("eded daxil edin:");
+            double b = 23456;
 
-            int a = Convert.ToInt32(Console.ReadLine());
+
+
+            double c = 34567;
+
+
+
+            double d = 45678;
+
+
 
             string s = Convert.ToString(a);
 
-            if (s.Length != 4)
+
+
+            string t = Convert.ToString(b);
+
+
+
+            string u = Convert.ToString(c);
+
+
+
+            string v = Convert.ToString(d);
+
+
+
+
+
+
+
+            if (s.Length == 6 && t.Length == 6 && u.Length == 6 && v.Length == 6)
 
 
 
             {
 
-                Console.WriteLine("xeta");
+
+
+                double faizlerCemi10 = (a + b + c + d) / 10;
+
+                double faizlerCemi15 = (a + b + c + d) * 15 / 10;
+
+                double vurma = faizlerCemi10 * faizlerCemi15;
+
+                double faizYekun = (vurma * 10 / 100) * 11 / 100;
+
+                Console.WriteLine(faizYekun);
 
             }
 
@@ -32,19 +70,13 @@ namespace ConsoleApp1
 
             {
 
-                int b = 8;
-
-                int d = 7;
-
-
-
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
-
-                Console.WriteLine(newNumber);
-
-
+                Console.WriteLine("xeta");
 
             }
+
+
+
+        }
         }
     }
-}
+
