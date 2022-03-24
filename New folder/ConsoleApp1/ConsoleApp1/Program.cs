@@ -6,10 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
-
-            //, axirinada 8 reqemini artir
-
+            
 
 
             //4 dene 5 reqemli eded verilib.Her I ededin ustune III ededi gel.II ededin usutune IV eeddi gel.
