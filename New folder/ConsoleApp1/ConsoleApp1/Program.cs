@@ -6,12 +6,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
-
-            //, axirinada 8 reqemini artir
-
-
-
             Console.WriteLine("eded daxil edin:");
 
             int a = Convert.ToInt32(Console.ReadLine());
@@ -32,15 +26,18 @@ namespace ConsoleApp1
 
             {
 
-                int b = 8;
+                int b = 4;
 
-                int d = 7;
+                int d = 44;
 
 
 
                 int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
 
                 Console.WriteLine(newNumber);
+
+                Console.WriteLine($" 44 faizi {newNumber * 44 / 100}");
+
 
 
 
