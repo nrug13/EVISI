@@ -12,13 +12,59 @@ namespace ConsoleApp1
 
 
 
-            Console.WriteLine("eded daxil edin:");
+            //3 dene 6 reqemli eded verilib. Her birinin 10 faizini tapib neticeleri topla. Alinan cavabin 10% tap.
 
-            int a = Convert.ToInt32(Console.ReadLine());
+
+
+            int a = 123346;
+
+
+
+            int b = 654321;
+
+
+
+            int c = 123450;
+
+
 
             string s = Convert.ToString(a);
 
-            if (s.Length != 4)
+
+
+            string t = Convert.ToString(b);
+
+
+
+            string r = Convert.ToString(c);
+
+
+
+            if (s.Length == 6 && t.Length == 6 && r.Length == 6)
+
+
+
+            {
+
+                double d = (a + b + c) / 10;
+
+
+
+                double e = d / 10;
+
+
+
+                Console.WriteLine(e);
+
+
+
+
+
+            }
+
+
+
+            else
 
 
 
@@ -26,21 +72,9 @@ namespace ConsoleApp1
 
                 Console.WriteLine("xeta");
 
-            }
-
-            else
-
-            {
-
-                int b = 8;
-
-                int d = 7;
 
 
 
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
-
-                Console.WriteLine(newNumber);
 
 
 
