@@ -12,13 +12,85 @@ namespace ConsoleApp1
 
 
 
-            Console.WriteLine("eded daxil edin:");
+            //4 dene 5 reqemli eded verilib.Her I ededin ustune III ededi gel.II ededin usutune IV eeddi gel.
 
-            int a = Convert.ToInt32(Console.ReadLine());
+
+
+            //Sonra cavablari vur birbirine. Alinan neticeden III ededin 3 % -ni cix.
+
+
+
+
+
+
+
+            double a = 123145;
+
+
+
+            double b = 23456;
+
+
+
+            double c = 34567;
+
+
+
+            double d = 45678;
+
+
 
             string s = Convert.ToString(a);
 
-            if (s.Length != 4)
+
+
+            string t = Convert.ToString(b);
+
+
+
+            string u = Convert.ToString(c);
+
+
+
+            string v = Convert.ToString(d);
+
+
+
+
+
+
+
+            if (s.Length == 5 && t.Length == 5 && u.Length == 5 && v.Length == 5)
+
+
+
+            {
+
+                double x = a + c;
+
+
+
+                double z = b + d;
+
+
+
+                double y = (x * z) - c * 3 / 100;
+
+
+
+                Console.WriteLine(y);
+
+
+
+
+
+
+
+            }
+
+
+
+            else
 
 
 
@@ -26,25 +98,21 @@ namespace ConsoleApp1
 
                 Console.WriteLine("xeta");
 
-            }
-
-            else
-
-            {
-
-                int b = 8;
-
-                int d = 7;
 
 
 
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
-
-                Console.WriteLine(newNumber);
 
 
 
             }
+
+
+
+
+
+
+
         }
     }
-}
+    }
+
