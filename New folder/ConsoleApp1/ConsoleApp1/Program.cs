@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("eded daxil edin:");
 
-            int a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToInt32(Console.ReadLine());
 
             string s = Convert.ToString(a);
 
@@ -26,13 +26,13 @@ namespace ConsoleApp1
 
             {
 
-                int b = 4;
+                double b = 4;
 
-                int d = 44;
+                double d = 44;
 
 
 
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
+                double newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
 
                 Console.WriteLine(newNumber);
 
