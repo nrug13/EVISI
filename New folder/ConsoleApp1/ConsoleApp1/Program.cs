@@ -6,21 +6,67 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
+            double a, b, c, d, e, f;
 
-            //, axirinada 8 reqemini artir
+            a = 1;
+
+            b = 2;
+
+            c = 3;
+
+            d = 4;
+
+            e = 5;
+
+            f = 6;
 
 
 
-            Console.WriteLine("eded daxil edin:");
+            string q = Convert.ToString(a);
 
-            int a = Convert.ToInt32(Console.ReadLine());
+            string r = Convert.ToString(b);
 
-            string s = Convert.ToString(a);
+            string s = Convert.ToString(c);
 
-            if (s.Length != 4)
+            string t = Convert.ToString(d);
+
+            string u = Convert.ToString(e);
+
+            string v = Convert.ToString(f);
+
+            if (q.Length == 6 && r.Length == 6 && s.Length == 6 && t.Length == 6 && u.Length == 6 && v.Length == 6)
+
+            {
+
+                double x = a + b + c + d + e + f;
+
+                Console.WriteLine($"1- ci netice {x}");
+
+                int newnumber = int.Parse(a.ToString() + c.ToString());
+
+                Console.WriteLine($"1 ve 3 den alinan {newnumber}");
+
+                double z = x - newnumber;
+
+                double faiz10 = z * 10 / 100;
+
+                Console.WriteLine($"cixmadan alinan {z}, 10 faizi {faiz10} ");
+
+                double cem = faiz10 + e + f;
+
+                Console.WriteLine($"ededlerin cemi {cem} , 11 faizi {cem * 11 / 100}");
 
 
+
+
+
+
+
+            }
+
+
+
+            else
 
             {
 
@@ -28,23 +74,13 @@ namespace ConsoleApp1
 
             }
 
-            else
+            ///  6 dene 6 reqemli eded verilib. Evvel hamisini topla . Sonra I ve III ededi bir birine yapishdir ve bir eded al.
 
-            {
+            // I neticeden II neticeni cix.Alinan cavabin 10 % tap
 
-                int b = 8;
+            // .Neticenin uzerine V ve VI ededleri gel. Yekunda alinan cavabin 11 % tap.
 
-                int d = 7;
-
-
-
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
-
-                Console.WriteLine(newNumber);
-
-
-
-            }
         }
     }
-}
+    }
+
