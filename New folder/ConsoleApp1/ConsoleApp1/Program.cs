@@ -5,7 +5,8 @@ namespace ConsoleApp1
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {//2 dene 5 reqemli eded verilib. Bu ededleri toplayib. Alinan cavabin evveline ve axirina 5 artir. Neticenin 5 % tap
+
             Console.WriteLine("eded daxil edin:");
 
             double a = Convert.ToInt32(Console.ReadLine());
@@ -36,7 +37,7 @@ namespace ConsoleApp1
 
                 double c = a + b;
 
-                double newNumber = int.Parse(c.ToString() + d.ToString());
+                double newNumber = double.Parse(d.ToString() + c.ToString() + d.ToString());
 
                 Console.WriteLine(newNumber);
 
