@@ -30,7 +30,7 @@ namespace ConsoleApp1
 
 
 
-                double newNumber = int.Parse(a.ToString() + b.ToString());
+                double newNumber = double.Parse(a.ToString() + b.ToString());
 
                 Console.WriteLine(newNumber);
 
