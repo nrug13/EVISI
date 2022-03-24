@@ -16,15 +16,15 @@ namespace ConsoleApp1
 
 
 
-            int a = 123346;
+            double a = 123346;
 
 
 
-            int b = 654321;
+            double b = 654321;
 
 
 
-            int c = 123450;
+            double c = 123450;
 
 
 
