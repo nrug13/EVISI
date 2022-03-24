@@ -6,19 +6,77 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
-
-            //, axirinada 8 reqemini artir
+            // 2 dene eded verilib.I eded 4 reqemli II eded 7 reqemlidir.
 
 
 
-            Console.WriteLine("eded daxil edin:");
+            //I ededin 4 % -ni tap.
 
-            int a = Convert.ToInt32(Console.ReadLine());
 
-            string s = Convert.ToString(a);
 
-            if (s.Length != 4)
+            //Sonra II ededin 9 % ni tap.
+
+
+
+            //Sonra Cavalari toplayib 10 % ni tap.
+
+
+
+
+
+
+
+            int a = 1234;
+
+
+
+            int b = 1234576;
+
+
+
+            string c = Convert.ToString(a);
+
+
+
+            string d = Convert.ToString(b);
+
+
+
+            if (c.Length == 4 && d.Length == 7)
+
+
+
+            {
+
+                double a2 = a * 4 / 100;
+
+
+
+                double b2 = b * 9 / 100;
+
+
+
+                double c2 = (a + b) / 10;
+
+
+
+                Console.WriteLine($"1-ci ededin 4 faizi {a2}, 2- ci ededin 9 faizi {b2}, onlarin ceminin 10 faizi {c2}");
+
+
+
+
+
+
+
+            }
+
+
+
+
+
+
+
+            else
 
 
 
@@ -26,21 +84,7 @@ namespace ConsoleApp1
 
                 Console.WriteLine("xeta");
 
-            }
 
-            else
-
-            {
-
-                int b = 8;
-
-                int d = 7;
-
-
-
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
-
-                Console.WriteLine(newNumber);
 
 
 
