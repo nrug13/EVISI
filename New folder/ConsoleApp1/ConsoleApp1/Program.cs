@@ -6,25 +6,45 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
+            //5 dene eded verilib. Bunlardan 3 denesi 5 reqemli. 2 denesi ise 3 reqemlidir. 5 reqemli ededlerin 5% tap ,neticeleri vur bir birine.
 
-            //, axirinada 8 reqemini artir
-
-
-
-            Console.WriteLine("eded daxil edin:");
-
-            int a = Convert.ToInt32(Console.ReadLine());
-
-            string s = Convert.ToString(a);
-
-            if (s.Length != 4)
+            //Sonra 3 reqemli ededlerin 3 % tap ,neticeleri topla. Sonra yekunda alinan iki cavalarin her birinin 10 % -ni tapib topla.
 
 
+
+            double a = 123333333;
+
+            double b = 456;
+
+            double c = 12345;
+
+            double d = 12345;
+
+            double e = 12345;
+
+            string f = Convert.ToString(a);
+
+            string g = Convert.ToString(b);
+
+            string h = Convert.ToString(c);
+
+            string i = Convert.ToString(d);
+
+            string j = Convert.ToString(e);
+
+            if (f.Length == 3 && g.Length == 3 && h.Length == 5 && i.Length == 5 & j.Length == 5)
 
             {
 
-                Console.WriteLine("xeta");
+                double cde = (c + d + e) * 5 / 100;
+
+                double ab = (a + b) * 3 / 100;
+
+                double abcdeFaiz = (ab + cde) / 10;
+
+                Console.WriteLine($"yekun cavab {abcdeFaiz}");
+
+
 
             }
 
@@ -32,19 +52,16 @@ namespace ConsoleApp1
 
             {
 
-                int b = 8;
-
-                int d = 7;
-
-
-
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
-
-                Console.WriteLine(newNumber);
-
-
+                Console.WriteLine("xeta");
 
             }
+
+
+
+
+
+
         }
+    }
     }
 }
