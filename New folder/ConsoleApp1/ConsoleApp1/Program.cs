@@ -8,10 +8,10 @@ namespace ConsoleApp1
         {
             Console.Write("besreqemli ededi daxil et");
 
-            int a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToInt32(Console.ReadLine());
 
             string s = Convert.ToString(a);
-            int z = s.Length;
+            double z = s.Length;
 
             if ( z != 5 )
 
