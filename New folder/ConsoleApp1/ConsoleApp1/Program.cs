@@ -42,7 +42,7 @@ namespace ConsoleApp1
 
                 Console.WriteLine($"1- ci netice {x}");
 
-                int newnumber = int.Parse(a.ToString() + c.ToString());
+                double newnumber = double.Parse(a.ToString() + c.ToString());
 
                 Console.WriteLine($"1 ve 3 den alinan {newnumber}");
 
