@@ -12,7 +12,7 @@ namespace ConsoleApp1
 
 
 
-            int a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToInt32(Console.ReadLine());
 
 
 
