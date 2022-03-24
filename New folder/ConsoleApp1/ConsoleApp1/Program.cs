@@ -6,17 +6,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
-
-            //, axirinada 8 reqemini artir
 
 
+            //6) 4 reqemli eded verilib. Bu ededin evvel 20%-ni , sonra ise cavabin 10% tap. Alinan cavabin kvadratini tap.
 
-            Console.WriteLine("eded daxil edin:");
+
 
             int a = Convert.ToInt32(Console.ReadLine());
 
+
+
             string s = Convert.ToString(a);
+
+
 
             if (s.Length != 4)
 
@@ -24,27 +26,37 @@ namespace ConsoleApp1
 
             {
 
-                Console.WriteLine("xeta");
+
+
+                Console.WriteLine("4 reqemli deyil");
+
+
+
+
+
+
 
             }
+
+
 
             else
 
             {
 
-                int b = 8;
+                double b = a * 0.2;
 
-                int d = 7;
+                double c = a / 10;
 
+                Console.WriteLine($"20 faizi {b}");
 
-
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
-
-                Console.WriteLine(newNumber);
-
-
+                Console.WriteLine($" 10 faiz {c}");
 
             }
+
+           ;
+
+        }
         }
     }
-}
+
