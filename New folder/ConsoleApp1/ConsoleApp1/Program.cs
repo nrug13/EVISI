@@ -26,11 +26,11 @@ namespace ConsoleApp1
 
 
 
-            int a = 1234;
+            double a = 1234;
 
 
 
-            int b = 1234576;
+            double b = 1234576;
 
 
 
