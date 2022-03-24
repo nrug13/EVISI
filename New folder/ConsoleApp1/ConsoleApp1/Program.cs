@@ -6,19 +6,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //4 reqemli eded verilib. Bu ededin eveline 7 reqemini
-
-            //, axirinada 8 reqemini artir
-
-
-
             Console.WriteLine("eded daxil edin:");
 
             int a = Convert.ToInt32(Console.ReadLine());
 
+            int b = Convert.ToInt32(Console.ReadLine());
+
             string s = Convert.ToString(a);
 
-            if (s.Length != 4)
+            string t = Convert.ToString(b);
+
+            if (s.Length != 5 || t.Length != 5)
 
 
 
@@ -32,18 +30,17 @@ namespace ConsoleApp1
 
             {
 
-                int b = 8;
-
-                int d = 7;
 
 
+                int d = 5;
 
-                int newNumber = int.Parse(d.ToString() + a.ToString() + b.ToString());
+                int c = a + b;
+
+                int newNumber = int.Parse(c.ToString() + d.ToString());
 
                 Console.WriteLine(newNumber);
 
-
-
+                Console.WriteLine($" 5 faizi {newNumber * 5 / 100}");
             }
         }
     }
